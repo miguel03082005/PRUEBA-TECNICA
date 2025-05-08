@@ -1,0 +1,42 @@
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+
+# Misceláneos
+*.bak
+*.tmp
+
+# Entorno virtual y variables
+venv/
+.env/
+.env.local
+*.env
+
+# Database
+*.sqlite3
+*.db
+db.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+migrations/
+*.so
+.python-version
+
+# Django
+media/
+staticfiles/
+
+# Logs y temporales
+*.log
+*.pot
+*.pid
+.DS_Store
